@@ -1,4 +1,4 @@
-###avatar design
+###Avatar design
 
 ```html
 <h2>Avatar design</h2>
@@ -7,13 +7,13 @@
 
 ```
 
-###button design
+###Button design
 
 ```html
 <a href="#" class="btn-medium">Write stories</a>
 <a href="#" class="btn-treehouse">Start now</a>
 ```
-###dropdown design
+###Dropdown design
 
 [Bootstrap dropdown direct](http://getbootstrap.com/components/#dropdowns)
 
@@ -28,7 +28,7 @@
 </div>
 ```
 
-###card design
+###Card design
 
 Structure first
 then
@@ -118,4 +118,176 @@ Card x3
   * 3
 
 </ul>
-``
+```
+
+#CSS
+
+```CSS
+.avatar {
+  border-radius: 50%;
+  width: 50px;
+}
+
+.avatar-small {
+  border-radius: 50%;
+  width: 30px;
+}
+
+.badge {
+  line-height: 20px !important;
+  width: 20px !important;
+  padding: 0 !important;
+  background: #D73B3A !important;
+  position: relative !important;
+  top: -15px !important;
+  left: -15px !important;
+}
+
+.banner {
+  height: 100vh;
+  background: linear-gradient(-225deg, rgba(30,30,30,0.6) 30%, rgba(46,46,46,0.5) 80%), url("http://unsplash.it/400/300/?random");
+  background-size: cover;
+  color: white;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.banner h1 {
+  font-size: 50px;
+  font-weight: bolder;
+}
+
+.banner p {
+  font-size: 30px;
+  font-weight: lighter;
+}
+
+
+.banner {
+  height: 100vh;
+  background: linear-gradient(-225deg, rgba(30,30,30,0.6) 30%, rgba(46,46,46,0.5) 80%), url("http://unsplash.it/400/300/?random");
+  background-size: cover;
+  color: white;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.banner h1 {
+  font-size: 50px;
+  font-weight: bolder;
+}
+
+.banner p {
+  font-size: 30px;
+  font-weight: lighter;
+}
+
+
+.card {
+  position: relative;
+  height: 250px;
+  background: linear-gradient(-225deg, rgba(30,30,30,0.6) 30%, rgba(46,46,46,0.5) 80%), url("http://unsplash.it/400/300/?random");
+  background-size: cover;
+  color: white;
+}
+
+.card-user {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+.card-category {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+.card-description {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+
+
+.dropdown-menu {
+  box-shadow: none;
+}
+.dropdown-menu a {
+  font-weight: lighter !important;
+  color: #E6E6E6 !important;
+}
+
+
+.tabs {
+  background: #53443F;
+  color: white;
+  display: flex;
+  padding: 10px 10px 0 10px
+}
+
+.tabs h3 {
+  font-size: 17px;
+}
+
+.tabs p {
+  opacity: 0.5;
+}
+
+.tabs-item {
+  background: #756A66;
+  flex: 0 0 25%;
+  text-align: center;
+}
+
+.tabs-item:first-child {
+  border-radius: 10px 0 0 0;
+}
+.tabs-item:last-child {
+  border-radius: 0 10px 0 0;
+}
+
+.tabs-item.active {
+  background: white;
+  color: black;
+}
+
+
+
+.product {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  transition: all 0.3s ease;
+  border-radius: 3px;
+}
+
+.product:hover {
+  background: rgb(240, 240, 240);
+}
+
+.product:hover .product-upvote {
+  font-size: 25px;
+}
+
+.product-upvote {
+  font-size: 20px;
+  padding: 20px;
+  transition: all 0.3s ease;
+}
+
+.product-description {
+  flex: 1 0 auto;
+  padding: 20px;
+}
+.product-controls a {
+  font-size: 15px;
+  color: #CCCCCC;
+}
+
+
+
+```
