@@ -167,7 +167,9 @@ Card x3
 
 .banner {
   height: 100vh;
-  background: linear-gradient(-225deg, rgba(30,30,30,0.6) 30%, rgba(46,46,46,0.5) 80%), url("http://unsplash.it/400/300/?random");
+  background: linear-gradient(-225deg, rgba(30,30,30,0.6) 30%,
+              rgba(46,46,46,0.5) 80%),
+              url("http://unsplash.it/400/300/?random");
   background-size: cover;
   color: white;
   text-align: center;
@@ -190,7 +192,9 @@ Card x3
 .card {
   position: relative;
   height: 250px;
-  background: linear-gradient(-225deg, rgba(30,30,30,0.6) 30%, rgba(46,46,46,0.5) 80%), url("http://unsplash.it/400/300/?random");
+  background: linear-gradient(-225deg, rgba(30,30,30,0.6) 30%,
+              rgba(46,46,46,0.5) 80%),
+              url("http://unsplash.it/400/300/?random");
   background-size: cover;
   color: white;
 }
