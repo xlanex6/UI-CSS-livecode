@@ -166,28 +166,34 @@ Card x3
   font-weight: lighter;
 }
 
-
-.banner {
-  height: 100vh;
-  background: linear-gradient(-225deg, rgba(30,30,30,0.6) 30%,
-              rgba(46,46,46,0.5) 80%),
-              url("http://unsplash.it/400/300/?random");
-  background-size: cover;
-  color: white;
-  text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-}
-
-.banner h1 {
-  font-size: 50px;
-  font-weight: bolder;
-}
-
-.banner p {
-  font-size: 30px;
+.btn-medium {
+  color: #999999;
+  border: 1px solid #999999;
+  padding: 10px 15px;
+  border-radius: 50px;
   font-weight: lighter;
+  opacity: 0.6;
+}
+
+.btn-medium:hover {
+  opacity: 1;
+  text-decoration: none;
+  color: #999999;
+}
+
+.btn-treehouse {
+  color: white;
+  padding: 10px 15px;
+  border-radius: 4px;
+  font-weight: bold;
+  background: #6AD58B;
+}
+
+.btn-treehouse:hover {
+  opacity: 1;
+  background: #6AD58B;
+  text-decoration: none;
+  color: white;
 }
 
 
