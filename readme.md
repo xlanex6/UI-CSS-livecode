@@ -4,7 +4,8 @@
 <h2>Avatar design</h2>
 <img src="http://placehold.it/50x50" alt="" class="avatar">
 <img src="http://placehold.it/50x50" alt="" class="avatar-small">
-
+```
+```css
 .avatar {
   border-radius: 50%;
   width: 50px;
