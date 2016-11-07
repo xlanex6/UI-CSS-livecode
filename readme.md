@@ -22,6 +22,8 @@
 ```html
 <a href="#" class="btn-medium">Write stories</a>
 <a href="#" class="btn-treehouse">Start now</a>
+```
+```css
 .btn-medium {
   color: #999999;
   border: 1px solid #999999;
@@ -65,7 +67,8 @@
     <li><a href="#">Logout</a></li>
   </ul>
 </div>
-
+```
+```css
 .dropdown-menu {
   box-shadow: none;
 }
@@ -94,7 +97,8 @@ Card x3
     </div>
   </div>
 </div>
-
+```
+```css
 .card {
   position: relative;
   height: 250px;
@@ -127,7 +131,8 @@ Card x3
 ```html
 <img src="http://placehold.it/50x50" alt="" class="avatar">
 <span class="badge">3</span>
-
+```
+```css
 .badge {
   line-height: 20px !important;
   width: 20px !important;
@@ -150,7 +155,8 @@ Card x3
     <a href="#" class="btn-treehouse">Start now</a>
   </div>
 </div>
-
+```
+```css
 .banner {
   height: 100vh;
   background: linear-gradient(-225deg, rgba(30,30,30,0.6) 30%,
@@ -196,7 +202,8 @@ Card x3
     <p>followers</p>
   </div>
 </div>
-
+```
+```css
 .tabs {
   background: #53443F;
   color: white;
@@ -256,9 +263,11 @@ Card x3
       <li><a href=""><i class="fa fa-star"></i></a></li>
     </ul>
   </li>
+</ul>
 
   * 3
-
+```
+```css
   .product {
     display: flex;
     justify-content: space-between;
@@ -290,5 +299,4 @@ Card x3
     font-size: 15px;
     color: #CCCCCC;
   }
-</ul>
 ```
